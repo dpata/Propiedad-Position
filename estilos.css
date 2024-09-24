@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f2f2f2;
+    position: fixed; /* Fija el menú en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Coloca los elementos de la lista en línea */
+    justify-content: center; /* Centra los elementos */
+}
+
+li {
+    margin: 0 20px; /* Espaciado horizontal entre elementos */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #333; /* Color del texto */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff6600; /* Color al pasar el mouse */
+}
+
+main {
+    margin-top: 60px; /* Espacio para el menú fijo */
+    padding: 20px;
+}
