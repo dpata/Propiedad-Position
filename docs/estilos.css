@@ -14,7 +14,7 @@ nav {
 }
 
 ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
     display: flex; /* Coloca los elementos de la lista en línea */
@@ -26,8 +26,8 @@ li {
 }
 
 a {
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: #333; /* Color del texto */
+    text-decoration: none; 
+    color: #333; 
     font-weight: bold;
 }
 
